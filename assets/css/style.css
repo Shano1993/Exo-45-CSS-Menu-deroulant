@@ -62,6 +62,7 @@ header {
 .navbar ul ul {
     position: absolute;
     visibility: hidden;
+    z-index: 99;
 }
 .navbar ul li:hover ul {
     visibility: visible;
@@ -71,6 +72,10 @@ header {
     .navbar ul  {
         display: block;
         width: 20%;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: column;
     }
 }
 
